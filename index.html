@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="static\css\bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- start of navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navigation -->
+
+    <!-- start of carousel -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="static/images/Vehicle_189.webp.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="static/images/Vehicle_225.webp.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="static/images/Vehicle_244.webp.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end of carousel -->
+    <div class="container align-items-center justify-content-center">
+      <h1 class="text-center p-40 mb-10">Welcome to Bootstrap</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h2>Column One</h2>
+          <!-- <img src="static/images/Vehicle_189.webp.jpg" alt="" width="20%" height="40%"> -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            accusantium possimus tenetur, ipsa sunt ea incidunt beatae quaerat
+            porro inventore natus sequi sed minus explicabo necessitatibus,
+            maxime laudantium in doloribus!
+          </p>
+        </div>
+        <div class="col-4">
+          <h2>Column One</h2>
+          <!-- <img src="static/images/Vehicle_225.webp.jpg" alt="" height="40%"> -->
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum nam
+            quia itaque excepturi optio dicta minima numquam, quaerat aperiam
+            eaque, qui nihil iste, dolores esse. Totam laborum beatae fugit quo.
+          </p>
+        </div>
+        <div class="col-4">
+          <h2>Column Three</h2>
+          <!-- <img src="static/images/Vehicle_244.webp.jpg" alt="" height="40%"> -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius in
+            nobis voluptatum voluptas praesentium corporis, sapiente vero quis
+            aperiam nesciunt. Reprehenderit quasi illum perspiciatis ad
+            distinctio eligendi! Aliquam, ut harum.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- start of cards -->
+    <div class="container">
+      <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="https://www.safaricom.co.ke/images/e-sim-card-new.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tariffs</h5>
+            <p class="card-text">
+              Enjoy flexible talk time with your friends and family and know how much 
+              talk time you can get at your budget.
+            </p>
+            <a href="#" class="btn btn-primary">Explore Offers</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="https://www.safaricom.co.ke/images/405x397_2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Safaricom VoLTE</h5>
+            <p class="card-text">
+              Enjoy ultra HD quality voice calls and videos with sound so clear,
+              it'll feel like you're right next to your family and friends.
+            </p>
+            <a href="#" class="btn btn-primary">Find Out More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem">
+          <img src="https://www.safaricom.co.ke/images/405x397_4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Reverse Call</h5>
+            <p class="card-text">
+              A service that allows a customer to make a call with or
+              without airtime and the receiver of the call pays on the caller's behalf.
+            </p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- end of cards -->
+     <!-- whatsapp button -->
+      <button class="btn btn-outline-success"><i class="bi bi-whatsapp"></i>Whatsapp Us</button>
+    <!-- whatsapp button -->
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
